@@ -179,6 +179,6 @@ Esta aplicación fue desarrollada siguiendo las mejores prácticas de React Nati
 
 ---
 
-**Proyecto desarrollado para:** Modulo 5 
-**Institución:** Insituto Tecnico Ricaldone  
-**Fecha:** 4-9-2025
+- **Proyecto desarrollado para:** Módulo 5: Desarrollo de Componentes para dispositivos móviles
+- **Institución:** Insituto Tecnico Ricaldone  
+- **Fecha:** 4 de septiembre de 2025

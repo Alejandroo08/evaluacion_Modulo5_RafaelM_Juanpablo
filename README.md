@@ -1,12 +1,13 @@
-# Aplicación Móvil con React Native Expo y Firebase
+# Aplicación de gestión de usuarios con React Native Expo y Firebase
 
-## Información del Estudiante
+## Información de los estudiantes
 
-**Nombre del Estudiante:** Rafael Alejandro Menendez Alfaro 
-**Carnet:** 20230154
-**Nombre del Estudiante:** Juan Pabla Ayala Menjivar 
-**Carnet:** 20200135
-**Enlace de Video Demostrativo:** -
+- **Nombre del Estudiante:** Rafael Alejandro Menendez Alfaro 
+  - **Carnet:** 20230154
+- **Nombre del Estudiante:** Juan Pabla Ayala Menjivar 
+  - **Carnet:** 20200135
+  
+**Enlace de Video Demostrativo:** []
 
 ## Descripción del Proyecto
 
@@ -169,26 +170,12 @@ firebase-auth-app/
 - ✅ Manejo seguro de contraseñas
 - ✅ Persistencia segura de sesión
 
-## Futuras Mejoras
 
-- [ ] Recuperación de contraseña
-- [ ] Verificación de email
-- [ ] Fotos de perfil
-- [ ] Tema oscuro/claro
-- [ ] Notificaciones push
-- [ ] Validación biométrica
-
-## Notas del Desarrollador
+## Notas
 
 Esta aplicación fue desarrollada siguiendo las mejores prácticas de React Native y Firebase. El código está bien documentado y estructurado para facilitar futuras mejoras y mantenimiento.
 
-### Problemas Conocidos
 
-- Ninguno reportado actualmente
-
-### Soporte
-
-Para soporte técnico o preguntas sobre el proyecto, contactar al desarrollador a través del correo electrónico institucional.
 
 ---
 

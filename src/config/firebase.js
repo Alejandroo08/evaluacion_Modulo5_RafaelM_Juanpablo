@@ -5,12 +5,13 @@ import { API_KEY, AUTH_DOMAIN, PROJECT_ID, MESSAGING_SENDER_ID, APP_ID } from "@
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: API_KEY,
-  authDomain: AUTH_DOMAIN,
-  projectId: PROJECT_ID,
-  messagingSenderId: MESSAGING_SENDER_ID,
-  appId: APP_ID
-}
+  apiKey: "AIzaSyCdk3fQTx4cyjUa3iW_6FKUfRz4SqWY_A8",
+  authDomain: "evaluacion-modulo5-rafa-juan.firebaseapp.com",
+  projectId: "evaluacion-modulo5-rafa-juan",
+  storageBucket: "evaluacion-modulo5-rafa-juan.firebasestorage.app",
+  messagingSenderId: "832046354624",
+  appId: "1:832046354624:web:df22de875715f19ba79d25"
+};
 // Initialize firebase database
 const app = initializeApp(firebaseConfig)
 

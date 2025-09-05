@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../firebaseConfig';
+import { auth } from '../config/firebase';
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');

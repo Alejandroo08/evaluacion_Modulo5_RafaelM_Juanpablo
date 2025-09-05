@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   View,
   Text,
@@ -7,33 +6,33 @@ import {
   Image,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
- 
+
 const SplashScreen = () => {
   return (
-        <View style={styles.container}>
-            <StatusBar style="light" />
-                {/* Logo o icono de la aplicación */}
-            <View style={styles.logoContainer}>
-            <View style={styles.logoPlaceholder}>
-            <Text style={styles.logoText}>📱</Text>
-            </View>
-            <Text style={styles.appName}>Mi App Firebase</Text>
-            </View>
-            
-                {/* Indicador de carga */}
-            <View style={styles.loadingContainer}>
-            <ActivityIndicator size="large" color="#ffffff" />
-            <Text style={styles.loadingText}>Cargando...</Text>
-            </View>
-            
-                {/* Información adicional */}
-            <View style={styles.footer}>
-            <Text style={styles.footerText}>Versión 1.0.0</Text>
-            </View>
-            </View>
-        );
+    <View style={styles.container}>
+      <StatusBar style="light" />
+      {/* icono de la aplicación */}
+      <View style={styles.logoContainer}>
+        <View style={styles.logoPlaceholder}>
+          <Text style={styles.logoText}>📱</Text>
+        </View>
+        <Text style={styles.appName}>Mi App Firebase</Text>
+      </View>
+
+      {/* Indicador de carga */}
+      <View style={styles.loadingContainer}>
+        <ActivityIndicator size="large" color="#ffffff" />
+        <Text style={styles.loadingText}>Cargando...</Text>
+      </View>
+
+      {/* Información adicional */}
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>Versión 1.0.0</Text>
+      </View>
+    </View>
+  );
 };
- 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -81,5 +80,5 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
 });
- 
+
 export default SplashScreen;

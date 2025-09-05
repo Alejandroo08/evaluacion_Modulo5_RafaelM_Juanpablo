@@ -13,7 +13,7 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { doc, setDoc } from 'firebase/firestore';
-import { auth, db } from '../firebaseConfig';
+import { auth, db } from '../config/firebase';
 
 const RegisterScreen = ({ navigation }) => {
   const [formData, setFormData] = useState({

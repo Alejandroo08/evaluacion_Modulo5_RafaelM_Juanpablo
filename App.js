@@ -2,15 +2,15 @@ import { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from './firebaseConfig';
+import { auth } from './src/config/firebase';
 import * as SplashScreen from 'expo-splash-screen';
 
 // Importar pantallas
-import SplashScreenComponent from './screens/SplashScreen';
-import LoginScreen from './screens/LoginScreen';
-import RegisterScreen from './screens/RegisterScreen';
-import HomeScreen from './screens/HomeScreen';
-import EditProfileScreen from './screens/EditProfileScreen';
+import SplashScreenComponent from './src/screens/SplashScreen';
+import LoginScreen from './src/screens/LoginScreen';
+import RegisterScreen from './src/screens/RegisterScreen';
+import HomeScreen from './src/screens/HomeScreen';
+import EditProfileScreen from './src/screens/EditProfileScreen';
 
 const Stack = createStackNavigator();
 

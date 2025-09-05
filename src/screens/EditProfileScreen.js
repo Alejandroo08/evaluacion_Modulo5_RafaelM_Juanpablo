@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { doc, updateDoc, getDoc } from 'firebase/firestore';
-import { auth, db } from '../firebaseConfig';
+import { auth, db } from '../config/firebase';
 
 const EditProfileScreen = ({ navigation, route }) => {
   const [formData, setFormData] = useState({

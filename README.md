@@ -95,7 +95,7 @@ npm install
 2. Habilitar Authentication con Email/Password
 3. Crear una base de datos Firestore
 4. Obtener la configuración del proyecto
-5. Reemplazar las credenciales en `firebaseConfig.js`:
+5. Reemplazar las credenciales en `firebase.js`:
 
 ```javascript
 const firebaseConfig = {
